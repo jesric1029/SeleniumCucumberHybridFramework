@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumCore{
 
 
+    //TODO - Must move the driver to be outside of the steps as any failed step will cause a memory leak since the cleanup won't run.
 
     public static WebDriver driver;
 
