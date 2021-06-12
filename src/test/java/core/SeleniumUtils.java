@@ -21,8 +21,6 @@ public class SeleniumUtils {
         }else{
             Assert.fail("Test failed when searching keyword " + text);
         }
-        SeleniumCore.driver.close();
-
         return text;
 
     }
@@ -35,7 +33,6 @@ public class SeleniumUtils {
         deviceElement.click();
         WebElement modelElement = new WebDriverWait(SeleniumCore.driver,10).until(ExpectedConditions.elementToBeClickable(By.linkText(model)));
         modelElement.click();
-        SeleniumCore.driver.close();
 
 
     }
