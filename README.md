@@ -1,7 +1,6 @@
 # SeleniumCucumberHybridFramework
 
-Simple framework that combines a Cucumber Page Object framework with a Cucumber behavior driven framework. The framework has two scenarios - One which tests searching for
-various words on google and the other which tests the google store by device/model. 
+This is a sample framework that combines Cucumber w/ Selenium Webdriver. The example.feature contains all of the scenarios for this framework. NOTE: Do not execute this
+framework by running the feature file directly. Proper use is to execute from the "RunTests" class. This is a Junit test runner that contains a before/after class methods that 
+create and tear down the Selenium driver. This is important to prevent memory leaks. 
 
-TODO / IMPORTANT - The chromedriver needs to be moved outside of the features so that it's part of the testrunner class rather than the step definitions. Right now if 
-a step fails it will result in the chromedriver.exit not occuring IE memory leak. Will get to it ASAP. 
