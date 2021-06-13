@@ -10,7 +10,7 @@ the Selenium Driver and properly close it. Running the example file directly wil
 **What are the test cases?**
 In the example file there are three test cases:
 <ul>
-<li>TC001: This test case demonstrates navigating to Google using Selenium and searching for given Strings. Validation that the result is www.google.com</li>
+<li>TC001: This test case demonstrates navigating to Google using Selenium and searching for given Strings. Validates that the result is www.google.com</li>
 <li>TC002: This test case demonstrates navigating to Google and uses multiple input to navigate through the devices shop</li>
 <li>TC003: This test case demonstrates REST by a GET request against a public API for US data and validates that the expected population matches the given year</li>
 </ul>
