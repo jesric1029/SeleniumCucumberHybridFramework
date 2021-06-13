@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class StepDefs {
+public class SeleniumStepDefs {
 
 
     @Given("^the user initializes the Selenium driver for \"([^\"]*)\"$")
